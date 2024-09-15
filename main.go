@@ -1,14 +1,12 @@
 package main
 
 import (
-	"os"
-
 	"github.com/joho/godotenv"
-	"github.com/shomali11/slacker"
+	"github.com/zeeshanahmad0201/gobot/internal/bot"
 )
 
 func main() {
 	godotenv.Load()
 
-	bot := slacker.NewClient(os.Getenv("SLACK_BOT_TOKEN"), os.Getenv("SLACK_APP_TOKEN"))
+	bot.StartBot()
 }
