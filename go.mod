@@ -1,8 +1,6 @@
-module github.com/zeeshanahmad0201/gobot
+module github.com/zeeshanahmad0201/slack_bot
 
-go 1.22
-
-toolchain go1.22.7
+go 1.21.13
 
 require (
 	github.com/joho/godotenv v1.5.1

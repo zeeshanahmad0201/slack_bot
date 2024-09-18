@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/joho/godotenv"
-	"github.com/zeeshanahmad0201/gobot/internal/bot"
+	"github.com/zeeshanahmad0201/slack_bot/internal/bot"
 )
 
 func main() {

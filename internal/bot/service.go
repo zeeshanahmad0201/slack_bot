@@ -10,8 +10,8 @@ import (
 	"github.com/shomali11/slacker"
 	"github.com/tidwall/gjson"
 	witai "github.com/wit-ai/wit-go"
-	"github.com/zeeshanahmad0201/gobot/config"
-	"github.com/zeeshanahmad0201/gobot/pkg/helpers"
+	"github.com/zeeshanahmad0201/slack_bot/config"
+	"github.com/zeeshanahmad0201/slack_bot/pkg/helpers"
 )
 
 func printCommandEvents(eventChannel <-chan *slacker.CommandEvent) {
