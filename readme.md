@@ -2,6 +2,8 @@
 
 A Slack bot built with Go that integrates with Wit.AI and Wolfram Alpha to provide dynamic answers to user questions.
 
+![Project Demo](assets/bot_demo.gif)
+
 ## Features
 
 - **Command Handling**: Responds to user commands in Slack.
