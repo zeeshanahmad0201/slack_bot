@@ -34,7 +34,7 @@ func StartBot() {
 func AddCommand() {
 	bot := config.GetBot()
 
-	bot.Command("query for bot - <message>", &slacker.CommandDefinition{
+	bot.Command("- <message>", &slacker.CommandDefinition{
 		Description: "Send any question to wolfram",
 		Examples: []string{
 			"Who am I?",
